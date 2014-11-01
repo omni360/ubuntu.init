@@ -1,0 +1,12 @@
+#set java environment
+JAVA_HOME="/home/omni360/share/jdk1.8.0_25"
+export JRE_HOME="/home/omni360/share/jdk1.8.0_25/jre"
+export CLASSPATH=".:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH"
+
+#tomcat
+export TOMCAT_HOME="/home/omni360/share/apache-tomcat-8.0.14/"
+
+#rsense for ruby
+export RSENSE_HOME="/home/omni360/opt/rsense-0.3"
+
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:$JAVA_HOME/bin:$JRE_HOME/bin"
