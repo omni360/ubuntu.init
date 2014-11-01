@@ -5,6 +5,8 @@ rm -r 公共的 模板 视频 图片 文档 下载 音乐 桌面
 #创建code文件夹
 mkdir code code/java code/c code/cpp code/ruby code/go code/php code/js code/asm code/node code/web code/webgl code/shell
 mkdir pkg pkg/java pkg/go pkg/c pkg/go pkg/js pkg/node pkg/cpp pkg/pkg
+#设置英文目录
+sudo cp ./user-dirs.dirs ~/.config/
 #复制/etc/environment 
 cp ./environment /etc/environment
 #用hjkl移动光标
