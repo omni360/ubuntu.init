@@ -1,10 +1,10 @@
 #set java environment
-JAVA_HOME="/home/omni360/jdk/java/jdk1.8.0_25"
-export JRE_HOME="/home/omni360/jdk/java/jdk1.8.0_25/jre"
+JAVA_HOME="/home/omni360/pkg/java/jdk1.8.0_25"
+export JRE_HOME="/home/omni360/pkg/java/jdk1.8.0_25/jre"
 export CLASSPATH=".:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH"
 
 #tomcat
-export TOMCAT_HOME="/home/omni360/jdk/java/apache-tomcat-8.0.14/"
+export TOMCAT_HOME="/home/omni360/pkg/java/apache-tomcat-8.0.14/"
 
 #rsense for ruby
 #export RSENSE_HOME="/home/omni360/opt/rsense-0.3"
