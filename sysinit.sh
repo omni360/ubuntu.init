@@ -20,5 +20,5 @@ sudo apt-get install synaptic vim-common vim vim-gnome vim-tiny vim-athena vim-g
 sudo apt-get install git 
 #ssh-keygen -t rsa -C "omni360@qq.com"
 git config --global user.name "omni360"
-git config --global user.emal "omni360@qq.com"
-git config --global push.default matching
+git config --global user.email "omni360@qq.com"
+git config --global push.default sample 
