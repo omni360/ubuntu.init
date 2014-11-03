@@ -6,6 +6,11 @@ export CLASSPATH=".:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH"
 #tomcat
 export TOMCAT_HOME="/home/omni360/pkg/java/apache-tomcat-8.0.14/"
 
+#golang环境设置
+export GOBIN="/home/omni360/code/go/bin"
+export GOEXE=".run"
+export GOPATH="/home/omni360/code/go/"
+
 #rsense for ruby
 #export RSENSE_HOME="/home/omni360/opt/rsense-0.3"
 
